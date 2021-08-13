@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 10;
+  padding: 10;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: solid 2px #000;
+  margin: 0 auto;
+}
+
+.square {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #eee;
+}
+
+.snake {
+  background: #228b22;
+}
+
+.apple {
+  background: #ff0000;
+}
