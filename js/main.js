@@ -1,6 +1,6 @@
 const grid = document.querySelector(".grid")
 const startBtn = document.getElementById("start")
-let scoreDisplay = document.getElementById("score")
+const scoreDisplay = document.getElementById("score")
 const squares = []
 let currentSnake = [2, 1, 0]
 let direction = 1
